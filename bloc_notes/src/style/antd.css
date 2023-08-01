@@ -1,0 +1,34 @@
+body{
+  background-color: black;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  flex: 0 0 250px; /* Sidebar prend 250px de largeur */
+}
+
+
+.main {
+  flex: 1;
+ /* Main prend tout l'espace restant */
+}
+
+.preview-main-note{
+  color: red;
+}
+
+.add-btn {
+  color: white;
+  background-color: red;
+}
+
+.sidebar-header {
+  color: red;
+}
+
+.sidebar-note-title {
+  color: white;
+}
