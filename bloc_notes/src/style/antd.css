@@ -55,7 +55,7 @@ body{
 
 .main-note-inputs input::placeholder,
 .main-note-inputs textarea::placeholder {
-  color:black; /* Couleur du placeholder */
+  color:rgb(255, 255, 255); /* Couleur du placeholder */
   font-family: Verdana, sans-serif;
   font-size: 15px;
 }
@@ -63,7 +63,6 @@ body{
 .preview-main-note{
   color: red;
   padding: 20px;
-  border-bottom: 1px solid #ccc;
 }
 
 .add-btn {

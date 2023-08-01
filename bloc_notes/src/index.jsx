@@ -30,10 +30,16 @@ function App() {
   return (
     <div className="layout">
       <div className="sidebar">
-      <Sidebar notes={notes} onAddNote={() => addNote({ id: Date.now(), title: "New Note", content: "" })} onDeleteNote={deleteNote} />
+        <Sidebar
+          notes={notes}
+          onAddNote={() =>
+            addNote({ id: Date.now(), title: "New Note", content: "" })
+          }
+          onDeleteNote={deleteNote}
+        />
       </div>
-    <div className="main">
-      <MyControlledInputs />
+      <div className="main">
+        <MyControlledInputs />
       </div>
     </div>
   );
