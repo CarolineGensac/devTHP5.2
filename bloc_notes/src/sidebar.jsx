@@ -1,6 +1,6 @@
 function Sidebar({ notes, onAddNote, onDeleteNote }) {
   return (
-    <div className="sidebar">
+    <div>
       <div className="sidebar-header">
         <h1>Notes</h1>
         <button className="add-btn" onClick={onAddNote}>

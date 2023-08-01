@@ -18,11 +18,11 @@ function MyControlledInputs() {
       </div>
 
       <div className="main-note-inputs">
-        <div>
-          <input value={values.title} onChange={getHandler("title")} />
+        <div className="input-title">
+          <input placeholder="Write your title here ..." value={values.title} onChange={getHandler("title")} />
         </div>
         <br></br>
-        <div>
+        <div className="input-content">
           <textarea placeholder="Write your note here..." value={values.content} onChange={getHandler("content")} />
         </div>
       </div>
